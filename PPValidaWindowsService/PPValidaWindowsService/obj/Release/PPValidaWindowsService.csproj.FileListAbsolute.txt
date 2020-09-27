@@ -1,0 +1,11 @@
+C:\Users\usuario\Documents\Visual Studio 2015\Projects\PPValidaWindowsService\PPValidaWindowsService\PPValidaWindowsService\bin\Release\PPValidaWindowsService.exe.config
+C:\Users\usuario\Documents\Visual Studio 2015\Projects\PPValidaWindowsService\PPValidaWindowsService\PPValidaWindowsService\bin\Release\PPValidaWindowsService.exe
+C:\Users\usuario\Documents\Visual Studio 2015\Projects\PPValidaWindowsService\PPValidaWindowsService\PPValidaWindowsService\bin\Release\PPValidaWindowsService.pdb
+C:\Users\usuario\Documents\Visual Studio 2015\Projects\PPValidaWindowsService\PPValidaWindowsService\PPValidaWindowsService\bin\Release\FileHelpers.dll
+C:\Users\usuario\Documents\Visual Studio 2015\Projects\PPValidaWindowsService\PPValidaWindowsService\PPValidaWindowsService\bin\Release\FileHelpers.xml
+C:\Users\usuario\Documents\Visual Studio 2015\Projects\PPValidaWindowsService\PPValidaWindowsService\PPValidaWindowsService\obj\Release\PPValidaWindowsService.csprojResolveAssemblyReference.cache
+C:\Users\usuario\Documents\Visual Studio 2015\Projects\PPValidaWindowsService\PPValidaWindowsService\PPValidaWindowsService\obj\Release\PPValidaWindowsService.PPVWindowsService.resources
+C:\Users\usuario\Documents\Visual Studio 2015\Projects\PPValidaWindowsService\PPValidaWindowsService\PPValidaWindowsService\obj\Release\PPValidaWindowsService.ProjectInstaller.resources
+C:\Users\usuario\Documents\Visual Studio 2015\Projects\PPValidaWindowsService\PPValidaWindowsService\PPValidaWindowsService\obj\Release\PPValidaWindowsService.csproj.GenerateResource.Cache
+C:\Users\usuario\Documents\Visual Studio 2015\Projects\PPValidaWindowsService\PPValidaWindowsService\PPValidaWindowsService\obj\Release\PPValidaWindowsService.exe
+C:\Users\usuario\Documents\Visual Studio 2015\Projects\PPValidaWindowsService\PPValidaWindowsService\PPValidaWindowsService\obj\Release\PPValidaWindowsService.pdb
