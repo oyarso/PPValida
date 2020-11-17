@@ -9,9 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Threading;
 using System.IO;
-using System.Timers;
-using System.Configuration;
-
+using System.Windows.Threading;
 
 namespace PPValidaWindowsService
 {
@@ -22,44 +20,69 @@ namespace PPValidaWindowsService
             InitializeComponent();
         }
 
+
         protected override void OnStart(string[] args)
         {
+        
+            Dispatcher changeDispatcher = null;
+            ManualResetEvent changeDispatcherStarted = new ManualResetEvent(false);
+            Action changeThreadHandler = () =>
+            {
+                changeDispatcher = Dispatcher.CurrentDispatcher;
+                changeDispatcherStarted.Set();
+                Dispatcher.Run();
+            };
+            new Thread(() => changeThreadHandler()) { IsBackground = true }.Start();
+            changeDispatcherStarted.WaitOne();
+
             EventLog.WriteEntry("PPValida Windows Service se esta iniciando", EventLogEntryType.Information);
             string copiar = filecreate.ReadSetting("PathOrigen");
             EventLog.WriteEntry(copiar, EventLogEntryType.Information);
             FileSystemWatcher observador = new FileSystemWatcher(copiar);
-            observador.NotifyFilter = (
-            NotifyFilters.LastAccess |
-            NotifyFilters.LastWrite |
-            NotifyFilters.FileName |
-            NotifyFilters.DirectoryName);
 
-            observador.Filter = "*.txt";
+            observador.NotifyFilter = ( NotifyFilters.FileName | NotifyFilters.Size );
+            observador.Changed += (sender, e) => changeDispatcher.BeginInvoke(new Action(() => filecreate.AlCambiar(sender, e)));
+            observador.EnableRaisingEvents = true;
+
+
+            string crearlog = filecreate.ReadSetting("PathLog");
+            var logpath=crearlog + "log.txt";
+            observador.InternalBufferSize = 64 * 1024;
+            observador.IncludeSubdirectories = false;
             try
             {
-                observador.Created += filecreate.AlCambiar;
-                observador.EnableRaisingEvents = true;
+                if (!File.Exists(logpath))
+            {
+                    using (var tw = new StreamWriter(logpath, true))
+                    {
+                        tw.WriteLine("Archivo log:");
+                        tw.Close();
+                    }
+                }
+           
             }
             catch
             {
-                ServiceController sc = new ServiceController();
-                sc.ServiceName = "PPVWindowsService";
-
-                if (sc.Status == ServiceControllerStatus.Stopped)
+                filecreate.RestartService("PPVWindowsService");
+            }
+            observador.Filter = "*.txt";
+            try
+            {
+                try
                 {
-                    try
-                    {
-                        sc.Start();
-                        sc.WaitForStatus(ServiceControllerStatus.Running);
-                    }
-                    catch (InvalidOperationException)
-                    {
+                    observador.EnableRaisingEvents = false;
+                    observador.Changed += filecreate.AlCambiar;   /* do my stuff once asynchronously */
+                }
 
-                    }
+                finally
+                {
+                    observador.EnableRaisingEvents = true;
                 }
             }
-
-
+            catch
+            {
+              filecreate.RestartService("PPVWindowsService");
+            }
         }
 
         protected override void OnStop()

@@ -5,6 +5,8 @@ using System.ComponentModel;
 using System.Configuration.Install;
 using System.Linq;
 using System.Threading.Tasks;
+using System.ServiceProcess;
+using Microsoft.Win32;
 
 namespace PPValidaWindowsService
 {
@@ -14,6 +16,11 @@ namespace PPValidaWindowsService
         public ProjectInstaller()
         {
             InitializeComponent();
+        }
+
+        private void serviceProcessInstaller1_AfterInstall(object sender, InstallEventArgs e)
+        {
+
         }
     }
 }

@@ -12,17 +12,12 @@ namespace PPValidaWindowsService
     [IgnoreEmptyLines]
     public class Documents
     {
-      
 
-[FieldOptional]
+        // En base a las variables capturadas por filehelper, se valida en los siguientes metodos
+        [FieldOptional]
         public string titulo;
         [FieldOptional]
         public string tipoDoc;
-        //[FieldOptional]
-        //public string tipoPrint; //{ get; set; }
-        //////[FieldConverter(ConverterKind.Date, "dd-MM-yyyy")]
-        //[FieldOptional]
-        //public string fecha; //{ get; set; }
         public static Boolean EsDoc(string tipoDoc)
         {
             if (tipoDoc == "33" || tipoDoc == "39" || tipoDoc == "52")
@@ -34,21 +29,59 @@ namespace PPValidaWindowsService
                 return false;
             }
         }
-        public static Boolean EsFecha(string tipoDoc)
+        public static Boolean EsBole(string tipoDoc)
         {
-            try
+            if (tipoDoc == "39")
             {
-                DateTime.Parse(tipoDoc);
                 return true;
             }
-            catch
+            else
             {
                 return false;
             }
         }
+        public static Boolean EsFactu(string tipoDoc)
+        {
+            if (tipoDoc == "33")
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+        public static Boolean EsGuia(string tipoDoc)
+        {
+            if (tipoDoc == "52")
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+        public static string Docu(string tipoDoc)
+        {
+            return tipoDoc;
+        }
+        public static Boolean EsFecha(string tipoDoc)
+        {
+            DateTime dt;
+            DateTime.TryParseExact(tipoDoc, "yyyy-MM-dd", null, System.Globalization.DateTimeStyles.None, out dt);
+            if (dt == DateTime.MinValue)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
         public static Boolean EsPrint(string tipoDoc)
         {
-            string impresora=tipoDoc.ToLower();
+            string impresora = tipoDoc.ToLower();
             bool impre;
             impre = impresora.Contains("printer");
             if (impre == true)
@@ -62,4 +95,3 @@ namespace PPValidaWindowsService
         }
     }
 }
-

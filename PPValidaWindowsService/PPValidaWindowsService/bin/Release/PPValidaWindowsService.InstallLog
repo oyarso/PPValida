@@ -1,0 +1,13 @@
+﻿Instalando ensamblado 'C:\Users\Poyo\Documents\Visual Studio 2015\Projects\PPValidaWindowsService\PPValidaWindowsService\PPValidaWindowsService\bin\Release\PPValidaWindowsService.exe'.
+Los parámetros afectados son:
+   logtoconsole = 
+   logfile = C:\Users\Poyo\Documents\Visual Studio 2015\Projects\PPValidaWindowsService\PPValidaWindowsService\PPValidaWindowsService\bin\Release\PPValidaWindowsService.InstallLog
+   assemblypath = C:\Users\Poyo\Documents\Visual Studio 2015\Projects\PPValidaWindowsService\PPValidaWindowsService\PPValidaWindowsService\bin\Release\PPValidaWindowsService.exe
+Instalando el servicio PPVWindowsService...
+Creando el origen de EventLog PPVWindowsService en el registro Application...
+Deshaciendo ensamblado 'C:\Users\Poyo\Documents\Visual Studio 2015\Projects\PPValidaWindowsService\PPValidaWindowsService\PPValidaWindowsService\bin\Release\PPValidaWindowsService.exe'.
+Los parámetros afectados son:
+   logtoconsole = 
+   logfile = C:\Users\Poyo\Documents\Visual Studio 2015\Projects\PPValidaWindowsService\PPValidaWindowsService\PPValidaWindowsService\bin\Release\PPValidaWindowsService.InstallLog
+   assemblypath = C:\Users\Poyo\Documents\Visual Studio 2015\Projects\PPValidaWindowsService\PPValidaWindowsService\PPValidaWindowsService\bin\Release\PPValidaWindowsService.exe
+Restaurando el registro de eventos al estado anterior para el origen PPVWindowsService.

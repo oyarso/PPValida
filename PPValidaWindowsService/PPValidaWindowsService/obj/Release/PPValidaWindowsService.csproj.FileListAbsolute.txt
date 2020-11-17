@@ -9,3 +9,39 @@ C:\Users\usuario\Documents\Visual Studio 2015\Projects\PPValidaWindowsService\PP
 C:\Users\usuario\Documents\Visual Studio 2015\Projects\PPValidaWindowsService\PPValidaWindowsService\PPValidaWindowsService\obj\Release\PPValidaWindowsService.csproj.GenerateResource.Cache
 C:\Users\usuario\Documents\Visual Studio 2015\Projects\PPValidaWindowsService\PPValidaWindowsService\PPValidaWindowsService\obj\Release\PPValidaWindowsService.exe
 C:\Users\usuario\Documents\Visual Studio 2015\Projects\PPValidaWindowsService\PPValidaWindowsService\PPValidaWindowsService\obj\Release\PPValidaWindowsService.pdb
+C:\Users\Poyo\Documents\Visual Studio 2015\Projects\PPValidaWindowsService\PPValidaWindowsService\PPValidaWindowsService\bin\Release\PPValidaWindowsService.exe.config
+C:\Users\Poyo\Documents\Visual Studio 2015\Projects\PPValidaWindowsService\PPValidaWindowsService\PPValidaWindowsService\obj\Release\PPValidaWindowsService.exe
+C:\Users\Poyo\Documents\Visual Studio 2015\Projects\PPValidaWindowsService\PPValidaWindowsService\PPValidaWindowsService\obj\Release\PPValidaWindowsService.pdb
+C:\Users\Poyo\Documents\Visual Studio 2015\Projects\PPValidaWindowsService\PPValidaWindowsService\PPValidaWindowsService\bin\Release\PPValidaWindowsService.exe
+C:\Users\Poyo\Documents\Visual Studio 2015\Projects\PPValidaWindowsService\PPValidaWindowsService\PPValidaWindowsService\bin\Release\PPValidaWindowsService.pdb
+C:\Users\Poyo\Documents\Visual Studio 2015\Projects\PPValidaWindowsService\PPValidaWindowsService\PPValidaWindowsService\bin\Release\FileHelpers.dll
+C:\Users\Poyo\Documents\Visual Studio 2015\Projects\PPValidaWindowsService\PPValidaWindowsService\PPValidaWindowsService\bin\Release\FileHelpers.xml
+C:\Users\Poyo\Documents\Visual Studio 2015\Projects\PPValidaWindowsService\PPValidaWindowsService\PPValidaWindowsService\obj\Release\PPValidaWindowsService.csprojResolveAssemblyReference.cache
+C:\Users\Poyo\Documents\Visual Studio 2015\Projects\PPValidaWindowsService\PPValidaWindowsService\PPValidaWindowsService\obj\Release\PPValidaWindowsService.PPVWindowsService.resources
+C:\Users\Poyo\Documents\Visual Studio 2015\Projects\PPValidaWindowsService\PPValidaWindowsService\PPValidaWindowsService\obj\Release\PPValidaWindowsService.ProjectInstaller.resources
+C:\Users\Poyo\Documents\Visual Studio 2015\Projects\PPValidaWindowsService\PPValidaWindowsService\PPValidaWindowsService\obj\Release\PPValidaWindowsService.csproj.GenerateResource.Cache
+C:\Users\Poyo\Downloads\PPValidaWindowsService\PPValidaWindowsService\PPValidaWindowsService\bin\Release\PPValidaWindowsService.exe.config
+C:\Users\Poyo\Downloads\PPValidaWindowsService\PPValidaWindowsService\PPValidaWindowsService\obj\Release\PPValidaWindowsService.exe
+C:\Users\Poyo\Downloads\PPValidaWindowsService\PPValidaWindowsService\PPValidaWindowsService\obj\Release\PPValidaWindowsService.pdb
+C:\Users\Poyo\Documents\Visual Studio 2015\Projects\PPValidaWindowsService20oct2\PPValidaWindowsService\PPValidaWindowsService\bin\Release\PPValidaWindowsService.exe.config
+C:\Users\Poyo\Documents\Visual Studio 2015\Projects\PPValidaWindowsService20oct2\PPValidaWindowsService\PPValidaWindowsService\obj\Release\PPValidaWindowsService.exe
+C:\Users\Poyo\Documents\Visual Studio 2015\Projects\PPValidaWindowsService20oct2\PPValidaWindowsService\PPValidaWindowsService\obj\Release\PPValidaWindowsService.pdb
+C:\Users\Poyo\Documents\Visual Studio 2015\Projects\PPValidaWindowsService20oct2\PPValidaWindowsService\PPValidaWindowsService\bin\Release\PPValidaWindowsService.exe
+C:\Users\Poyo\Documents\Visual Studio 2015\Projects\PPValidaWindowsService20oct2\PPValidaWindowsService\PPValidaWindowsService\bin\Release\PPValidaWindowsService.pdb
+C:\Users\Poyo\Documents\Visual Studio 2015\Projects\PPValidaWindowsService20oct2\PPValidaWindowsService\PPValidaWindowsService\bin\Release\FileHelpers.dll
+C:\Users\Poyo\Documents\Visual Studio 2015\Projects\PPValidaWindowsService20oct2\PPValidaWindowsService\PPValidaWindowsService\bin\Release\FileHelpers.xml
+C:\Users\Poyo\Documents\Visual Studio 2015\Projects\PPValidaWindowsService20oct2\PPValidaWindowsService\PPValidaWindowsService\obj\Release\PPValidaWindowsService.csprojResolveAssemblyReference.cache
+C:\Users\Poyo\Documents\Visual Studio 2015\Projects\PPValidaWindowsService20oct2\PPValidaWindowsService\PPValidaWindowsService\obj\Release\PPValidaWindowsService.PPVWindowsService.resources
+C:\Users\Poyo\Documents\Visual Studio 2015\Projects\PPValidaWindowsService20oct2\PPValidaWindowsService\PPValidaWindowsService\obj\Release\PPValidaWindowsService.ProjectInstaller.resources
+C:\Users\Poyo\Documents\Visual Studio 2015\Projects\PPValidaWindowsService20oct2\PPValidaWindowsService\PPValidaWindowsService\obj\Release\PPValidaWindowsService.csproj.GenerateResource.Cache
+C:\Users\poyo\Documents\Visual Studio 2015\PPValidaWindowsService\PPValidaWindowsService\PPValidaWindowsService\bin\Release\PPValidaWindowsService.exe.config
+C:\Users\poyo\Documents\Visual Studio 2015\PPValidaWindowsService\PPValidaWindowsService\PPValidaWindowsService\obj\Release\PPValidaWindowsService.exe
+C:\Users\poyo\Documents\Visual Studio 2015\PPValidaWindowsService\PPValidaWindowsService\PPValidaWindowsService\obj\Release\PPValidaWindowsService.pdb
+C:\Users\poyo\Documents\Visual Studio 2015\PPValidaWindowsService\PPValidaWindowsService\PPValidaWindowsService\bin\Release\PPValidaWindowsService.exe
+C:\Users\poyo\Documents\Visual Studio 2015\PPValidaWindowsService\PPValidaWindowsService\PPValidaWindowsService\bin\Release\PPValidaWindowsService.pdb
+C:\Users\poyo\Documents\Visual Studio 2015\PPValidaWindowsService\PPValidaWindowsService\PPValidaWindowsService\bin\Release\FileHelpers.dll
+C:\Users\poyo\Documents\Visual Studio 2015\PPValidaWindowsService\PPValidaWindowsService\PPValidaWindowsService\bin\Release\FileHelpers.xml
+C:\Users\poyo\Documents\Visual Studio 2015\PPValidaWindowsService\PPValidaWindowsService\PPValidaWindowsService\obj\Release\PPValidaWindowsService.csprojResolveAssemblyReference.cache
+C:\Users\poyo\Documents\Visual Studio 2015\PPValidaWindowsService\PPValidaWindowsService\PPValidaWindowsService\obj\Release\PPValidaWindowsService.PPVWindowsService.resources
+C:\Users\poyo\Documents\Visual Studio 2015\PPValidaWindowsService\PPValidaWindowsService\PPValidaWindowsService\obj\Release\PPValidaWindowsService.ProjectInstaller.resources
+C:\Users\poyo\Documents\Visual Studio 2015\PPValidaWindowsService\PPValidaWindowsService\PPValidaWindowsService\obj\Release\PPValidaWindowsService.csproj.GenerateResource.Cache

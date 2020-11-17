@@ -37,9 +37,13 @@
             this.serviceProcessInstaller1.Account = System.ServiceProcess.ServiceAccount.LocalSystem;
             this.serviceProcessInstaller1.Password = null;
             this.serviceProcessInstaller1.Username = null;
+            this.serviceProcessInstaller1.AfterInstall += new System.Configuration.Install.InstallEventHandler(this.serviceProcessInstaller1_AfterInstall);
             // 
             // serviceInstaller1
             // 
+            this.serviceInstaller1.Description = "El programa validara el documento y si lo es lo copiara en una carpeta y sino lo " +
+    "apendizara en un log";
+            this.serviceInstaller1.DisplayName = "PValida Windows Service";
             this.serviceInstaller1.ServiceName = "PPVWindowsService";
             this.serviceInstaller1.StartType = System.ServiceProcess.ServiceStartMode.Automatic;
             // 
